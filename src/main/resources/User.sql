@@ -1,0 +1,7 @@
+-- auto Generated on 2020-05-22 18:03:57 
+-- DROP TABLE IF EXISTS `user`; 
+CREATE TABLE user(
+    `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'id',
+    `name` VARCHAR(50) NOT NULL DEFAULT '' COMMENT 'name',
+    PRIMARY KEY (`id`)
+);
